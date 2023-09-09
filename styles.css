@@ -1,0 +1,93 @@
+/* Reset default styles */
+label, input, button {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    font-size: bolder;
+    font-size: 4em;
+    font-family: sans-serif;
+}
+label{
+    font-family: sans-serif;
+}
+
+
+body{
+    margin: auto;
+    padding: 15%;
+ background: linear-gradient(to  bottom left, rgba(0, 255, 0, 0.4), lightblue);
+    
+}
+
+/* Basic styling */
+.container {
+    max-width: 700px;
+    height: 50%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(266, 0,0,0.5);
+    background-color: rgba(266, 0, 0, 0.7);
+    background-image:url(16217.gif), url(images.jpeg);
+    background-repeat: no-repeat;
+    background-position:  left, right;
+    background-size: 120px 180px ;
+    
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+label, input, button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border-radius: 10px;
+    outline: none;
+    /* color: whitesmoke; */
+    /* background-color:black; */
+}
+input::placeholder{
+    outline: none;
+    color: whitesmoke;
+}
+
+button {
+    background-color: #00cc00;
+    font-weight: bold;
+    font-family: sans-serif;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: auto;
+    /* border:1px solid whitesmoke; */
+    outline: none;
+    border-radius: 4px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 168, 0, 0.4);
+    
+}
+
+.results {
+    margin-top: 20px;
+    padding: 2%;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    /* background-color: rgba(0,250,0,0.5); */
+}
+#celsius{
+    max-width: 250px;
+    display: block;
+    margin: auto;
+    margin-bottom: 20px;
+}
